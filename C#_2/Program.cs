@@ -34,7 +34,7 @@ Console.WriteLine("Вторая цифра в введённом числе: " +
 
 32679 -> 6
 */
-
+/*
 int thirdNum(int number)
 {
     if(number > 999)
@@ -57,3 +57,25 @@ else
 {
     Console.WriteLine("Третья цифра в числе " + result  + " является " + thirdNum(result));
 }
+*/
+
+//Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+
+void weekend(int number)
+    {
+        if(number == 6)
+        {
+            Console.WriteLine("Сегодня отдыхаем!");
+        }
+        if(number == 7)
+        {
+            Console.WriteLine("Сегодня отдыхаем!");
+        }
+        else
+        {
+            Console.WriteLine("Придётся поработать, дружище!");
+        }
+    }
+Console.WriteLine("Введите число, соответствующее дню недели");
+int vvod = Convert.ToInt32(Console.ReadLine());
+weekend(vvod);
