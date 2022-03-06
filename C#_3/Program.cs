@@ -7,6 +7,34 @@
 23432 -> да
 */
 /*
+Console.WriteLine("Введите пятизначное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+check(number);
+void check(int five)
+{
+    int a = five / 10000;
+    int a1 = five / 1000 % 10;
+    int a3 = five % 100 / 10;
+    int a4 = five % 10;
+    if(a == a4)
+    {
+        if(a1 == a3)
+        {
+            Console.WriteLine("ДА!");
+        }
+        else
+        {
+            Console.WriteLine("НЕТ!");
+        }
+    }
+    else
+    {
+        Console.WriteLine("НЕТ!");
+    }
+}
+*/
+
+/*
 Задача 21
 
 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
