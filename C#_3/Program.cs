@@ -42,7 +42,7 @@ void check(int five)
 A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53
 */
-/*
+
 double Distance(double x1, double y1, double z1, double x2, double y2, double z2)
 {
     double xDistance = x1 - x2;
@@ -66,7 +66,7 @@ Console.WriteLine("Введите координату z для точки B: ")
 zB = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("Растояние между точками А и В равно: " + Distance(xA, yA, zA, xB, yB, zB));
-*/
+
 /*
 Задача 23
 
