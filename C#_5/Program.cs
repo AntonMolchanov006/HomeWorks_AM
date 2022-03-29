@@ -25,6 +25,7 @@ Checking();
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
+/*
 int Summa()
 {
     int[] array = new int[10];
@@ -43,6 +44,34 @@ int Summa()
     return sum;
 }
 Console.WriteLine("Сумма элементов с нечетным индексом равна: " + Summa());
+*/
 
 // Задача 3: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
+
+int Difference()
+{
+    int [] array = new int [10];
+    int max = 0;
+    int min = 100;
+    for (int i = 0; i < 10; i++)
+    {
+        array[i] = new Random().Next(0, 100);
+        Console.Write(array[i] +" ");
+        if(array[i] > max)
+        {
+             max = array[i];
+        }
+        if(array[i] < min)
+        {
+            min = array[i];
+        }
+    }
+    int dif = max - min;
+    Console.WriteLine();
+     Console.WriteLine("максимум: " + max);
+     Console.WriteLine("минимум: " + min);
+
+    return dif;
+}
+Console.WriteLine($"Разница между максимальным числом и минимальным равна {Difference()}");
