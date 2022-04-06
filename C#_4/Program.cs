@@ -69,17 +69,17 @@ Console.WriteLine("Сумма цифр в числе равна " + numSum(numbe
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 6, 1, 33 -> [6, 1, 33]
 */
-void eight()
-{
-    Console.WriteLine("Введите элементы массива ");
-    int [] a = new int[8];
-    for(int i = 0; i < 8; i++)
-    {
-        a[i] = Convert.ToInt32(Console.ReadLine());
-    }
-    for(int i = 0; i < 8; i++)
-    {
-        Console.Write(a[i] + " ");
-    }
-}
-eight();
+// void eight()
+// {
+//     Console.WriteLine("Введите элементы массива ");
+//     int [] a = new int[8];
+//     for(int i = 0; i < 8; i++)
+//     {
+//         a[i] = Convert.ToInt32(Console.ReadLine());
+//     }
+//     for(int i = 0; i < 8; i++)
+//     {
+//         Console.Write(a[i] + " ");
+//     }
+// }
+// eight();
