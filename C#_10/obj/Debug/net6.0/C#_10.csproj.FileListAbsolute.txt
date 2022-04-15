@@ -1,0 +1,15 @@
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\bin\Debug\net6.0\C#_10.exe
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\bin\Debug\net6.0\C#_10.deps.json
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\bin\Debug\net6.0\C#_10.runtimeconfig.json
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\bin\Debug\net6.0\C#_10.dll
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\bin\Debug\net6.0\C#_10.pdb
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\C#_10.csproj.AssemblyReference.cache
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\C#_10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\C#_10.AssemblyInfoInputs.cache
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\C#_10.AssemblyInfo.cs
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\C#_10.csproj.CoreCompileInputs.cache
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\C#_10.dll
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\refint\C#_10.dll
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\C#_10.pdb
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\C#_10.genruntimeconfig.cache
+C:\Users\visio\OneDrive\Рабочий стол\HomeWorks\C#_10\obj\Debug\net6.0\ref\C#_10.dll
