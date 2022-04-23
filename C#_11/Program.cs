@@ -34,39 +34,69 @@ int[] PrintArray(int[] ar)
     return ar;
 }
 
-int[] DeciToBin(int[] data, int[] info)
+void DeciToBin(int[] data, int[] info)
 {
-    int[] ResultArray = new int[info.Length];
-    int dataMin = 0;
-    int dataMax = 0;
-    
-    for (int infoIndex = 0; infoIndex < info.Length; infoIndex++)
+    int sum = 0;
+    for (int i = 0; i < info.Length; i++)
     {
-        
-        
-        int number = 0;
-        int pow = info[infoIndex] - 1;
-        dataMax = dataMax + info[infoIndex];
-        // for (int i = info[infoIndex] - 1; i >= 0; i--)
-        // {
-        //     number = number + data[dataIndex + i] * (int)Math.Pow(2, pow);
-        //     pow++;
-        // }
-
-        for (int dataIndex = dataMin; dataIndex < dataMax; dataIndex++)
-        {
-            number = number + data[dataIndex] * (int)Math.Pow(2, pow);
-            pow--;
-        }
-        
-        dataMin = dataMin + info[infoIndex];
-        
-        ResultArray[infoIndex] = number;
-        Console.Write(ResultArray[infoIndex] + " ");
-
+        sum = sum + info[i];
     }
 
-    return ResultArray;
+    if (sum <= data.Length)
+    {
+        int[] ResultArray = new int[info.Length];
+        int dataMin = 0;
+        int dataMax = 0;
+        for (int infoIndex = 0; infoIndex < info.Length; infoIndex++)
+        {
+            int number = 0;
+            int pow = info[infoIndex] - 1;
+            dataMax = dataMax + info[infoIndex];
+            for (int dataIndex = dataMin; dataIndex < dataMax; dataIndex++)
+            {
+                number = number + data[dataIndex] * (int)Math.Pow(2, pow);
+                pow--;
+            }
+            dataMin = dataMin + info[infoIndex];
+            ResultArray[infoIndex] = number;
+            Console.Write(ResultArray[infoIndex] + " ");
+        }
+    }
+
+    if (sum < data.Length)
+    {
+        Console.WriteLine("Недостаточно данных");
+    }
+
+    if (sum > data.Length)
+    {
+        int[] ResultArray = new int[info.Length];
+        int dataMin = 0;
+        int dataMax = 0;
+        for (int infoIndex = 0; infoIndex < info.Length-1; infoIndex++)
+        {
+            int number = 0;
+            int pow = info[infoIndex] - 1;
+            dataMax = dataMax + info[infoIndex];
+            for (int dataIndex = dataMin; dataIndex < dataMax; dataIndex++)
+            {
+                number = number + data[dataIndex] * (int)Math.Pow(2, pow);
+                pow--;
+            }
+            dataMin = dataMin + info[infoIndex];
+            ResultArray[infoIndex] = number;
+            Console.Write(ResultArray[infoIndex] + " ");
+            int number2 = 0;
+            int stepen = info[info.Length-1] - 2;
+            for(int dataIndex = data.Length-info[info.Length-1]+1; dataIndex < data.Length; dataIndex++)
+            {
+                number2 = number2 + data[dataIndex] * (int)Math.Pow(2, stepen);
+                stepen--;
+            }
+            ResultArray[info.Length-1] = number2;
+            Console.Write(ResultArray[info.Length-1] + " ");
+        }
+    }
 }
 
 Console.WriteLine("Введите длину массива Data: ");
